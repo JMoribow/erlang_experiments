@@ -18,3 +18,12 @@
       "css": [
         "dashboard.css"
       ],
+      "js": [
+        "dashboard.js"
+      ]
+    }
+  ],
+  "host_permissions": [
+    "https://api.github.com/*"
+  ]
+}
