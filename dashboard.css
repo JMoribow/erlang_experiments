@@ -2,4 +2,4 @@
 .by_internet.commit_comment,
 .body.by_internet:has(.commit_comment),
 .by_followed_people.create,
-.body.by_followed_p
+.body.by_followed_people:has(.cr
