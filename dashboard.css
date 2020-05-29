@@ -3,3 +3,4 @@
 .body.by_internet:has(.commit_comment),
 .by_followed_people.create,
 .body.by_followed_people:has(.create),
+.by_in
