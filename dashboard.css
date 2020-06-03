@@ -5,4 +5,5 @@
 .body.by_followed_people:has(.create),
 .by_internet.create,
 .body.by_internet:has(.create),
-.by_followed_people.follo
+.by_followed_people.follow,
+.bod
