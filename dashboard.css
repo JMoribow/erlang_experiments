@@ -8,4 +8,4 @@
 .by_followed_people.follow,
 .body.by_followed_people:has(.follow),
 .by_internet.follow,
-.body.by_internet:has
+.body.by_internet:has(.foll
