@@ -10,4 +10,4 @@
 .by_internet.follow,
 .body.by_internet:has(.follow),
 .by_followed_people.fork,
-.body.by_followed_people:
+.body.by_followed_people:has(.fo
