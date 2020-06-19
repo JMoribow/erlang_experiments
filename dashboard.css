@@ -11,4 +11,5 @@
 .body.by_internet:has(.follow),
 .by_followed_people.fork,
 .body.by_followed_people:has(.fork),
-.by_internet.fork
+.by_internet.fork,
+.body.by
