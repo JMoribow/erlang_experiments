@@ -13,4 +13,5 @@
 .body.by_followed_people:has(.fork),
 .by_internet.fork,
 .body.by_internet:has(.fork),
-.by_followed_people.git
+.by_followed_people.git-branch,
+.bod
