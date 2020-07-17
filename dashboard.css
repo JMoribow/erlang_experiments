@@ -17,4 +17,5 @@
 .body.by_followed_people:has(.git-branch),
 .by_internet.git-branch,
 .body.by_internet:has(.git-branch),
-.by_followed_people.gol
+.by_followed_people.gollum,
+.body
