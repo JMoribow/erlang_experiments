@@ -18,4 +18,4 @@
 .by_internet.git-branch,
 .body.by_internet:has(.git-branch),
 .by_followed_people.gollum,
-.body.by_followed_peopl
+.body.by_followed_people:has(.
