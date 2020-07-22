@@ -19,3 +19,4 @@
 .body.by_internet:has(.git-branch),
 .by_followed_people.gollum,
 .body.by_followed_people:has(.gollum),
+.by_int
