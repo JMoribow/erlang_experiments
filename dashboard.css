@@ -20,4 +20,5 @@
 .by_followed_people.gollum,
 .body.by_followed_people:has(.gollum),
 .by_internet.gollum,
-.body.by_internet:has(.goll
+.body.by_internet:has(.gollum),
+.by_f
