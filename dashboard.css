@@ -21,4 +21,5 @@
 .body.by_followed_people:has(.gollum),
 .by_internet.gollum,
 .body.by_internet:has(.gollum),
-.by_followed_people.issues_clos
+.by_followed_people.issues_closed,
+.bo
