@@ -24,4 +24,5 @@
 .by_followed_people.issues_closed,
 .body.by_followed_people:has(.issues_closed),
 .by_internet.issues_closed,
-.body.by_internet:has(.issues_close
+.body.by_internet:has(.issues_closed),
+.b
