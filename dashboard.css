@@ -27,4 +27,5 @@
 .body.by_internet:has(.issues_closed),
 .by_followed_people.issues_comment,
 .body.by_followed_people:has(.issues_comment),
-.by_internet.issues_comm
+.by_internet.issues_comment,
+.body
