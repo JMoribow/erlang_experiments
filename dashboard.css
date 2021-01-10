@@ -28,4 +28,5 @@
 .by_followed_people.issues_comment,
 .body.by_followed_people:has(.issues_comment),
 .by_internet.issues_comment,
-.body.by_internet:has(.issues_commen
+.body.by_internet:has(.issues_comment),
+.by_f
