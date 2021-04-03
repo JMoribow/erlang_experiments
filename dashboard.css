@@ -31,4 +31,4 @@
 .body.by_internet:has(.issues_comment),
 .by_followed_people.issues_labeled,
 .body.by_followed_people:has(.issues_labeled),
-.by_internet.issue
+.by_internet.issues_lab
