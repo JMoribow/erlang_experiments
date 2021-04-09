@@ -32,4 +32,4 @@
 .by_followed_people.issues_labeled,
 .body.by_followed_people:has(.issues_labeled),
 .by_internet.issues_labeled,
-.body.b
+.body.by_internet:
