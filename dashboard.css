@@ -38,4 +38,5 @@
 .by_internet.issues_opened,
 .body.by_internet:has(.issues_opened),
 .by_followed_people.issues_reopened,
-.body.by_followed_people:has(.issues_reo
+.body.by_followed_people:has(.issues_reopened),
+.by
