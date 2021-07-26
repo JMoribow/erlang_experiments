@@ -40,4 +40,5 @@
 .by_followed_people.issues_reopened,
 .body.by_followed_people:has(.issues_reopened),
 .by_internet.issues_reopened,
-.body.by_internet:has(.issues_reopened
+.body.by_internet:has(.issues_reopened),
+.by_fo
