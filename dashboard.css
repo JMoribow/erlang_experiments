@@ -43,4 +43,5 @@
 .body.by_internet:has(.issues_reopened),
 .by_followed_people.issues_merged,
 .body.by_followed_people:has(.issues_merged),
-.by_internet.issues_merg
+.by_internet.issues_merged,
+.bod
