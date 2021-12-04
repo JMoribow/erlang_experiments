@@ -47,4 +47,5 @@
 .body.by_internet:has(.issues_merged),
 .by_followed_people.public,
 .body.by_followed_people:has(.public),
-.by_internet.publi
+.by_internet.public,
+.body.by
