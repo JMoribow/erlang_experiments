@@ -53,4 +53,4 @@
 .body.by_followed_people:has(.push),
 .by_internet.push,
 .body.by_internet:has(.push),
-.by_followed_people[d
+.by_followed_people[data-hy
