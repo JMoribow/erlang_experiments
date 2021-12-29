@@ -55,4 +55,4 @@
 .body.by_internet:has(.push),
 .by_followed_people[data-hydro-click*='PushEvent'],
 .body.by_followed_people:has([data-hydro-click*='PushEvent']),
-.by
+.by_inter
