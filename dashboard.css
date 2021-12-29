@@ -54,4 +54,4 @@
 .by_internet.push,
 .body.by_internet:has(.push),
 .by_followed_people[data-hydro-click*='PushEvent'],
-.body.by_followed_peo
+.body.by_followed_people:has
