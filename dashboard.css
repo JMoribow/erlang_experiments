@@ -56,4 +56,4 @@
 .by_followed_people[data-hydro-click*='PushEvent'],
 .body.by_followed_people:has([data-hydro-click*='PushEvent']),
 .by_internet[data-hydro-click*='PushEvent'],
-.body.by_inte
+.body.by_internet:ha
