@@ -57,4 +57,5 @@
 .body.by_followed_people:has([data-hydro-click*='PushEvent']),
 .by_internet[data-hydro-click*='PushEvent'],
 .body.by_internet:has([data-hydro-click*='PushEvent']),
-.by_followed_people.relea
+.by_followed_people.release,
+.
