@@ -59,3 +59,4 @@
 .body.by_internet:has([data-hydro-click*='PushEvent']),
 .by_followed_people.release,
 .body.by_followed_people:has(.release),
+.by_
