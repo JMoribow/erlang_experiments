@@ -62,4 +62,5 @@
 .by_internet.release,
 .body.by_internet:has(.release),
 .by_followed_people.repo,
-.body.by_followed_people:has(.r
+.body.by_followed_people:has(.repo),
+.by
