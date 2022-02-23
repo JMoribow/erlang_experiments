@@ -65,4 +65,5 @@
 .body.by_followed_people:has(.repo),
 .by_internet.repo,
 .body.by_internet:has(.repo),
-.by_followed_people
+.by_followed_people.tag,
+.
