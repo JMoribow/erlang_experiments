@@ -69,4 +69,5 @@
 .body.by_followed_people:has(.tag),
 .by_internet.tag,
 .body.by_internet:has(.tag),
-.by_followed_people.team_add
+.by_followed_people.team_add,
+.body.by
