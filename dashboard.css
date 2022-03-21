@@ -72,4 +72,5 @@
 .by_followed_people.team_add,
 .body.by_followed_people:has(.team_add),
 .by_internet.team_add,
-.body.by_internet:has(.team_ad
+.body.by_internet:has(.team_add),
+.by_fol
