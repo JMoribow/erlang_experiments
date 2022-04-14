@@ -79,4 +79,5 @@
 .body.by_internet:has(.member_add),
 .by_followed_people.watch_started,
 .body.by_followed_people:has(.watch_started),
-.by_internet.watch_st
+.by_internet.watch_started,
+.
