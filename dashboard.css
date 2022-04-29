@@ -82,4 +82,4 @@
 .by_internet.watch_started,
 .body.by_internet:has(.watch_started),
 .by_followed_people.sponsor,
-.body.by_followed_peop
+.body.by_followed_people:has(
