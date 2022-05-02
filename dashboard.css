@@ -83,4 +83,5 @@
 .body.by_internet:has(.watch_started),
 .by_followed_people.sponsor,
 .body.by_followed_people:has(.sponsor),
-.by_internet.sponsor
+.by_internet.sponsor,
+.bod
