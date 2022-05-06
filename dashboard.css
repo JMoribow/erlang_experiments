@@ -84,4 +84,5 @@
 .by_followed_people.sponsor,
 .body.by_followed_people:has(.sponsor),
 .by_internet.sponsor,
-.body.by_internet:has(.sponsor) 
+.body.by_internet:has(.sponsor) {
+  d
