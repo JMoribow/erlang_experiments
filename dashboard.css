@@ -85,4 +85,7 @@
 .body.by_followed_people:has(.sponsor),
 .by_internet.sponsor,
 .body.by_internet:has(.sponsor) {
-  display: none
+  display: none;
+}
+
+.sh
