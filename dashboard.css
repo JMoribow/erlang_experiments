@@ -90,4 +90,5 @@
 
 .show_starred_and_followed_by .watch_started.by_internet,
 .show_starred_and_followed_by .body.by_internet:has(.watch_started),
-.show_starred_and_followed_by .follow.by_intern
+.show_starred_and_followed_by .follow.by_internet,
+.sh
