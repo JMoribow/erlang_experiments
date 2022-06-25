@@ -97,4 +97,5 @@
 
 .show_sponsored_by .sponsor.by_followed_people,
 .show_sponsored_by .body.by_followed_people:has(.sponsor),
-.show_sponsored_by .sponsor.by_interne
+.show_sponsored_by .sponsor.by_internet,
+.show
