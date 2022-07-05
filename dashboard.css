@@ -99,3 +99,4 @@
 .show_sponsored_by .body.by_followed_people:has(.sponsor),
 .show_sponsored_by .sponsor.by_internet,
 .show_sponsored_by .body.by_internet:has(.sponsor) {
+  d
