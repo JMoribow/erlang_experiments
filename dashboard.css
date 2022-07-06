@@ -100,3 +100,6 @@
 .show_sponsored_by .sponsor.by_internet,
 .show_sponsored_by .body.by_internet:has(.sponsor) {
   display: block;
+}
+
+.show_f
