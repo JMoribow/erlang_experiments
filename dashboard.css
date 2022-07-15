@@ -103,4 +103,5 @@
 }
 
 .show_forked_by .fork.by_internet,
-.show_forked_by .body.by_internet:has(.fork
+.show_forked_by .body.by_internet:has(.fork),
+.show_
