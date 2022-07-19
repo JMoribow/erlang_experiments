@@ -105,4 +105,4 @@
 .show_forked_by .fork.by_internet,
 .show_forked_by .body.by_internet:has(.fork),
 .show_forks .fork.by_followed_people,
-.show_forks .b
+.show_forks .body.by_f
