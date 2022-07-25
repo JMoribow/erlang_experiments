@@ -108,3 +108,5 @@
 .show_forks .body.by_followed_people:has(.fork) {
   display: block;
 }
+
+.show_sta
