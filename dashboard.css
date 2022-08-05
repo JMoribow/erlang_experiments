@@ -110,4 +110,4 @@
 }
 
 .show_stars_and_follows .watch_started.by_followed_people,
-.show_stars_and_follows .body.by_followed_people:h
+.show_stars_and_follows .body.by_followed_people:has(.watch_
