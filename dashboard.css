@@ -122,4 +122,4 @@
 .show_open_source .body.by_followed_people:has(.create),
 .show_open_source .public.by_followed_people,
 .show_open_source .body.by_followed_people:has(.public) {
-  displ
+  display: b
