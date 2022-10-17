@@ -127,4 +127,4 @@
 
 .show_releases .tag,
 .show_releases .release {
-  display
+  display: block
