@@ -135,4 +135,4 @@
 .show_code .issues_merged,
 .show_code .push,
 .show_code .Details [data-hydro-click*='PushEvent'] {
-  disp
+  display: block
