@@ -143,4 +143,5 @@
 .show_conversations .issues_opened,
 .show_conversations .issues_labeled,
 .show_conversations .issues_closed,
-.show_conversations .issues_reop
+.show_conversations .issues_reopened {
+  d
