@@ -144,4 +144,4 @@
 .show_conversations .issues_labeled,
 .show_conversations .issues_closed,
 .show_conversations .issues_reopened {
-  display: b
+  display: block;
