@@ -152,4 +152,5 @@
   display: block;
 }
 
-.js-recent-activity-container + deta
+.js-recent-activity-container + details {
+  
