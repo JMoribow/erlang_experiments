@@ -25,3 +25,14 @@ const menuItems = {
 }
 
 const eventClasses = [
+  // Code
+  '.git-branch', '.push', '.gollum', '.issues_merged', '[data-hydro-click*=\'PushEvent\']',
+  // Releases
+  '.release', '.tag',
+  // Conversations
+  '.issues_closed', '.issues_labeled', '.issues_opened', '.issues_reopened', '.commit_comment', '.issues_comment',
+  // Open source
+  '.create', '.public', '.repo',
+  // Stars and follows / Starred and followed by
+  '.watch_started', '.follow',
+  // Forks / Forked by
