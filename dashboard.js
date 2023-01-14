@@ -5,3 +5,11 @@ const menuItems = {
   user: [
     'Watched repositories --',
     'Code',
+    'Releases',
+    'Conversations',
+    'Following --',
+    'Open source',
+    'Stars and follows',
+    'Forks',
+    'You --',
+    'Starred and followed by',
