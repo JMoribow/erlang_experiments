@@ -13,3 +13,15 @@ const menuItems = {
     'Forks',
     'You --',
     'Starred and followed by',
+    'Forked by',
+    'Sponsored by'
+  ],
+  org: [
+    'Code',
+    'Releases',
+    'Conversations',
+    'Administration'
+  ]
+}
+
+const eventClasses = [
