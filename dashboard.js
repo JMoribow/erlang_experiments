@@ -36,3 +36,8 @@ const eventClasses = [
   // Stars and follows / Starred and followed by
   '.watch_started', '.follow',
   // Forks / Forked by
+  '.fork',
+  // Sponsorship
+  '.sponsor',
+  // Administration
+  '.team_add', '.member_add'
