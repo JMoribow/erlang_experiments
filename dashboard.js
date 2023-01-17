@@ -46,3 +46,7 @@ const eventClasses = [
 let listOfFollowees
 
 init()
+updateClasses()
+if (context === 'user') specifyTimelineEvents()
+
+document.addEventListener('change', function (evt) {
