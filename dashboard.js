@@ -41,3 +41,8 @@ const eventClasses = [
   '.sponsor',
   // Administration
   '.team_add', '.member_add'
+].join()
+
+let listOfFollowees
+
+init()
