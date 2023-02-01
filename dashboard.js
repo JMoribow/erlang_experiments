@@ -64,3 +64,10 @@ document.addEventListener('click', function (evt) {
     }
   }
 })
+
+function updateClasses() {
+  const target = document.querySelector('#dashboard')
+  for (const checkbox of document.querySelectorAll('.js-dashboard-filter-checkbox')) {
+    target.classList.toggle(`show_${checkbox.id}`, checkbox.checked)
+  }
+}
