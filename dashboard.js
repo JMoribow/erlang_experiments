@@ -57,3 +57,10 @@ document.addEventListener('change', function (evt) {
 })
 
 document.addEventListener('click', function (evt) {
+  if (evt.shiftKey && evt.target.classList.contains('js-dashboard-filter-label')) {
+    for (const checkbox of document.querySelectorAll('.js-dashboard-filter-checkbox')) {
+      if (checkbox === evt.target) continue
+      checkbox.checked = false
+    }
+  }
+})
