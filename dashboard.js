@@ -50,3 +50,10 @@ updateClasses()
 if (context === 'user') specifyTimelineEvents()
 
 document.addEventListener('change', function (evt) {
+  if (evt.target.classList.contains('js-dashboard-filter-checkbox')) {
+    updateClasses()
+    rememberPreference()
+  }
+})
+
+document.addEventListener('click', function (evt) {
