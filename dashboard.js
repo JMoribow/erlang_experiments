@@ -71,3 +71,9 @@ function updateClasses() {
     target.classList.toggle(`show_${checkbox.id}`, checkbox.checked)
   }
 }
+
+function init () {
+  const details = document.createElement('details')
+  const classes = context === 'user'
+    ? ['position-relative', 'js-dropdown-details', 'details-overlay', 'float-left', 'mt-2', 'mr-3']
+    : ['position-relative', 'js-dropdown-details', 'details-overlay', 'mb-n1', 'mt-3', 'mb-2']
