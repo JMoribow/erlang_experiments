@@ -77,3 +77,10 @@ function init () {
   const classes = context === 'user'
     ? ['position-relative', 'js-dropdown-details', 'details-overlay', 'float-left', 'mt-2', 'mr-3']
     : ['position-relative', 'js-dropdown-details', 'details-overlay', 'mb-n1', 'mt-3', 'mb-2']
+  details.classList.add(...classes)
+  details.style.userSelect = 'none'
+  const summary = document.createElement('summary')
+  const btnClasses = context === 'user' ? ['btn'] : ['btn', 'btn-sm']
+  summary.classList.add(...btnClasses)
+  summary.textContent = 'Filter'
+  const container = document.createElement('div')
