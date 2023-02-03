@@ -84,3 +84,10 @@ function init () {
   summary.classList.add(...btnClasses)
   summary.textContent = 'Filter'
   const container = document.createElement('div')
+  container.classList.add('dropdown-menu', 'dropdown-menu-se', 'f5')
+  container.style.width = '260px'
+
+  for (const key of menuItems[context]) {
+    const isHeader = key.split(/ --$/)
+    if (isHeader.length > 1) {
+      const header = document.createElement('div')
