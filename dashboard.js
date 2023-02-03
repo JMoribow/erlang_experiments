@@ -91,3 +91,13 @@ function init () {
     const isHeader = key.split(/ --$/)
     if (isHeader.length > 1) {
       const header = document.createElement('div')
+      header.textContent = isHeader[0]
+      header.classList.add('dropdown-header')
+      container.appendChild(header)
+      continue
+    }
+    const id = key.toLowerCase().replace(/\s/g, '_').replace(/\/_/g, '')
+    const input = document.createElement('input')
+    input.type = 'checkbox'
+    input.id = id
+    input.className = 'position-absolute my-2 ml-3 js-dashboard-filter-checkbox'
