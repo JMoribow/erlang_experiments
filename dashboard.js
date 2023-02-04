@@ -101,3 +101,12 @@ function init () {
     input.type = 'checkbox'
     input.id = id
     input.className = 'position-absolute my-2 ml-3 js-dashboard-filter-checkbox'
+
+    const label = document.createElement('label')
+    label.className = 'pl-6 dropdown-item js-dashboard-filter-label'
+    label.innerText = key
+    label.htmlFor = id
+
+    container.appendChild(input)
+    container.appendChild(label)
+  }
