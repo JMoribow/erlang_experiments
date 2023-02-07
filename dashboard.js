@@ -110,3 +110,9 @@ function init () {
     container.appendChild(input)
     container.appendChild(label)
   }
+  details.appendChild(summary)
+  details.appendChild(container)
+
+  const positionMarker = document.querySelector('#dashboard')
+  if (positionMarker) {
+    positionMarker.prepend(details)
