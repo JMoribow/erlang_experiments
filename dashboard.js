@@ -116,3 +116,8 @@ function init () {
   const positionMarker = document.querySelector('#dashboard')
   if (positionMarker) {
     positionMarker.prepend(details)
+    applyPreference()
+  } else {
+    console.log('Dashboard extension: position marker not found.')
+  }
+}
