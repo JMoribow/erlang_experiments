@@ -121,3 +121,9 @@ function init () {
     console.log('Dashboard extension: position marker not found.')
   }
 }
+
+function rememberPreference () {
+  const preference = JSON.parse(localStorage.getItem(`dashboard:select:${context}`) || '{}')
+  for (const box of document.querySelectorAll('.js-dashboard-filter-checkbox')) {
+    preference[box.id] = box.checked
+  }
