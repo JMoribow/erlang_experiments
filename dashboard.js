@@ -127,3 +127,9 @@ function rememberPreference () {
   for (const box of document.querySelectorAll('.js-dashboard-filter-checkbox')) {
     preference[box.id] = box.checked
   }
+
+  localStorage.setItem(`dashboard:select:${context}`, JSON.stringify(preference))
+}
+
+function applyPreference () {
+  const preference = JSON.parse(localStorage.getItem(`dashboard:select:${context}`) || '{}')
