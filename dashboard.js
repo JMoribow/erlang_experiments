@@ -133,3 +133,10 @@ function rememberPreference () {
 
 function applyPreference () {
   const preference = JSON.parse(localStorage.getItem(`dashboard:select:${context}`) || '{}')
+
+  for (const box of document.querySelectorAll('.js-dashboard-filter-checkbox')) {
+    box.checked = (typeof preference[box.id] === 'boolean') ? preference[box.id] : true
+  }
+}
+
+function specifyTimelineEvents() {
