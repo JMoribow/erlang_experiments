@@ -148,3 +148,13 @@ function specifyTimelineEvents() {
 
 async function getFolloweeList() {
   if (listOfFollowees) return listOfFollowees
+
+  console.log('Dashboard extension: getting list of people you follow from localStorage')
+  const followees = localStorage.getItem('dashboard:following')
+  if (!followees || (followees && (new Date().getTime() - new Date(JSON.parse(followees).updatedAt))/1000 > 24*60*60)) {
+    const results = await fetchFollowees()
+    const followees = {
+      updatedAt: (new Date()).getTime(),
+      following: results
+    }
+    localStorage.setItem('dashboard:following', JSON.stringify(followees))
