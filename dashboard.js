@@ -140,3 +140,11 @@ function applyPreference () {
 }
 
 function specifyTimelineEvents() {
+  const dashboard = document.querySelector('#dashboard .news')
+  if (!dashboard) return
+  const observer = new MutationObserver(addMoreSpecificIdentifiers)
+  observer.observe(dashboard, {subtree: true, childList: true})
+}
+
+async function getFolloweeList() {
+  if (listOfFollowees) return listOfFollowees
