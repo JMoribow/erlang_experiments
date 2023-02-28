@@ -158,3 +158,9 @@ async function getFolloweeList() {
       following: results
     }
     localStorage.setItem('dashboard:following', JSON.stringify(followees))
+    listOfFollowees = results
+  } else {
+    listOfFollowees = JSON.parse(followees).following
+  }
+
+  return listOfFollowees
