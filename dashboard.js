@@ -164,3 +164,8 @@ async function getFolloweeList() {
   }
 
   return listOfFollowees
+}
+
+async function fetchFollowees() {
+  console.log('Dashboard extension: updating list of people you follow from GitHub API (once every 24h)')
+  return new Promise(async function(resolve) {
