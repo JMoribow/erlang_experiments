@@ -190,3 +190,9 @@ async function fetchFollowees() {
 // Could break if GitHub changes its markup
 async function addMoreSpecificIdentifiers(list) {
   const followees = await getFolloweeList()
+  for (const record of list) {
+    const closestParent = record.target.closest('.news, #panel-1')
+    if (!closestParent) continue
+
+    for (const eventItem of record.target.querySelectorAll(eventClasses)) {
+      if (!(eventItem instanceof HTMLElement)) continue
