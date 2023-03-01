@@ -176,3 +176,12 @@ async function fetchFollowees() {
     while (page > 0) {
       const res = await fetch(`${endpoint}?page=${page}`)
       const people = await res.json()
+      followees = followees.concat(people)
+      if (people.length === 30) {
+        page++
+      } else {
+        page = 0
+        resolve(followees.map(o => o.login))
+      }
+    }
+  })
