@@ -202,3 +202,9 @@ async function addMoreSpecificIdentifiers(list) {
       
       const expandable =  target.parentElement.closest('.body:has(.Details)')
       if (expandable) target = expandable
+
+      // Check if any links are to one of the followed people
+      const fromFollowedPeople = Array.from(target.querySelectorAll('a')).some(function(maybeActor) {
+        return followees.indexOf(maybeActor.pathname.slice(1)) >= 0
+      })
+      target.classList.add(fromFollowedPeople ? 'by_followed_people' : 'by_internet')
