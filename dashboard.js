@@ -196,3 +196,9 @@ async function addMoreSpecificIdentifiers(list) {
 
     for (const eventItem of record.target.querySelectorAll(eventClasses)) {
       if (!(eventItem instanceof HTMLElement)) continue
+      let target = eventItem
+      const parentEventItem = target.parentElement.closest(eventClasses)
+      if (parentEventItem) continue
+      
+      const expandable =  target.parentElement.closest('.body:has(.Details)')
+      if (expandable) target = expandable
