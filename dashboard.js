@@ -208,3 +208,6 @@ async function addMoreSpecificIdentifiers(list) {
         return followees.indexOf(maybeActor.pathname.slice(1)) >= 0
       })
       target.classList.add(fromFollowedPeople ? 'by_followed_people' : 'by_internet')
+    }
+  }
+}
